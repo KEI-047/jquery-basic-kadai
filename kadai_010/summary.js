@@ -1,0 +1,22 @@
+$(function(){
+    //click-change-color
+    $('#change-color').on('click',function(){
+        //change-red
+        $('#target').css('color','red');
+    });
+    //click-change-text
+    $('#change-text').on('click',function(){
+        //Hello
+        $('#target').text('Hello');
+    });
+    //click-fade-out
+    $('#fade-out').on('click',function(){
+        //fadeOut
+        $('#target').fadeOut();
+    });
+    //click-fade-in
+    $('#fade-in').on('click',function(){
+        //fadeIn
+        $('#target').fadeIn();
+    });
+});
